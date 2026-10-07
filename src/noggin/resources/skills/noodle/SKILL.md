@@ -1,4 +1,5 @@
 ---
+disable-model-invocation: true
 name: noodle
 description: Plan engineering work in a noggin-enabled project, splitting a task into actionable subtasks with dependencies, affected areas, risks, and verification.
 ---

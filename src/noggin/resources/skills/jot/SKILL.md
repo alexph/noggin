@@ -1,4 +1,5 @@
 ---
+disable-model-invocation: true
 name: jot
 description: Capture durable project knowledge, decisions, completed work, and follow-ups from the current coding session into noggin memory.
 ---

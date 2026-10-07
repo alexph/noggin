@@ -1,4 +1,5 @@
 ---
+disable-model-invocation: true
 name: noggin
 description: Read, write, and maintain project memory in noggin/ when retrieving project knowledge, recording decisions, or updating its wiki, ledger, vision, and principles.
 ---

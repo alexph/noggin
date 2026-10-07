@@ -88,6 +88,12 @@ the source syntax. Noggin does not require a particular editor or wiki renderer.
 | `jot` | Capturing useful discoveries from the current session |
 | `ruminate` | Reconciling recent changes or supplied sessions with memory |
 
+All four skills disable implicit invocation through `policy.allow_implicit_invocation`
+in their `agents/openai.yaml` files. Invoke them explicitly when you want to use them.
+Their Markdown frontmatter also sets `disable-model-invocation: true`, which
+[OpenCode V2 recognizes](https://opencode.ai/v2/docs/skills#frontmatter).
+Older OpenCode versions ignore this field; the installer currently supports Codex.
+
 Try asking Codex: “Use `$noodle` to plan this change,” “Use `$jot` to capture
 what we learned,” or “Use `$ruminate` to review the last five commits.”
 

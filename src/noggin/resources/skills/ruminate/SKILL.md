@@ -1,4 +1,5 @@
 ---
+disable-model-invocation: true
 name: ruminate
 description: Reconcile noggin memory with a bounded set of recent commits, working-tree changes, or supplied session records, correcting stale knowledge and consolidating discoveries.
 ---
