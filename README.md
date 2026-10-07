@@ -106,6 +106,28 @@ a model, run a background collector, or automatically read session logs.
 
 ## Updating
 
+### Upgrade the installed CLI
+
+If you installed Noggin with `uv tool install`, upgrade the tool first:
+
+```sh
+uv tool upgrade noggin
+```
+
+For an installation from a local checkout, reinstall from its current contents:
+
+```sh
+uv tool install --force /path/to/noggin
+```
+
+### Refresh project skills
+
+After upgrading the CLI, run this from each project's root:
+
+```sh
+noggin update
+```
+
 Run the current package's `noggin update`, for example:
 
 ```sh
